@@ -3101,14 +3101,20 @@ tbody.collapse.show {
   align-items: center;
 }
 
+/*** Aqui cambias el color del boton del menu
+que aparece en la cabezera del TLF MOVIL.
+En mi caso solo cambio el color de fondo ***/
+
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
-  background: transparent;
+  background: #386abb;
   border: 1px solid transparent;
   border-radius: 0.25rem;
 }
+
+/*** -------------------------- ***/
 
 .navbar-toggler:focus, .navbar-toggler:hover {
   text-decoration: none;

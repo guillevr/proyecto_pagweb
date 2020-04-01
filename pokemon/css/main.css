@@ -4,18 +4,24 @@
 /* Mobile Layout: 320px */
 /* Wide Mobile Layout: 480px */
 /* =================================== */
-/*  Basic Style 
+/*  Basic Style
 /* =================================== */
+
+
+/*** Aqui cambias el color de la seleccion del texto de toda la pagina ***/
+
 ::-moz-selection {
   /* Code for Firefox */
-  background-color: #b01afe;
+  background-color: #386abb;
   color: #fff;
 }
 
 ::selection {
-  background-color: #b01afe;
+  background-color: #386abb;
   color: #fff;
 }
+
+/*** -------------------------------------- ***/
 
 ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
@@ -116,10 +122,13 @@ a, a:focus, a:hover {
   background: #f9f9ff;
 }
 
+/*** Los cambios realizados aqui son para los estilos
+del los titulos. SOlo he cambiado el color ***/
+
 h1, h2, h3,
 h4, h5, h6 {
   font-family: "Poppins", sans-serif;
-  color: #222222;
+  color: #386abb;
   line-height: 1.2em !important;
   margin-bottom: 0;
   margin-top: 0;
@@ -132,8 +141,10 @@ h4, h5, h6 {
   margin-top: 0;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  color: #222222;
+  color: #386abb;
 }
+
+/*** -------------------------------------------- ***/
 
 h1, .h1 {
   font-size: 36px;
@@ -809,9 +820,13 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.5em;
 }
 
+/*** Aqui he cambiado tambien el color de la topografía ***/
+
 .typography h1, .typography h2, .typography h3, .typography h4, .typography h5, .typography h6 {
-  color: #777777;
+  color: #386abb;
 }
+
+/*** ------------- ***/
 
 .button-area {
   background: #fff;
@@ -1186,17 +1201,22 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.82em !important;
 }
 
+/*** Aqui cambias los atributos de la lista desordenada.
+En mi caso, solo le he cambiado el color del border. ***/
+
 .unordered-list li:before {
   content: "";
   position: absolute;
   width: 14px;
   height: 14px;
-  border: 3px solid #b01afe;
+  border: 3px solid #FFCC03;
   background: #fff;
   top: 4px;
   left: 0;
   border-radius: 50%;
 }
+
+/*** ----------------------------- ***/
 
 .ordered-list {
   margin-left: 30px;
@@ -1227,13 +1247,19 @@ h1, h2, h3, h4, h5, h6 {
   color: #777777;
 }
 
+/*** Aqui cambias todos los atributos de la lista ordenada
+pero del estilo Lista en numeros romanos.
+En mi caso solo he cambiado el color***/
+
 .ordered-list-roman li {
   margin-left: 30px;
   list-style-type: lower-roman;
-  color: #b01afe;
+  color: #386abb;
   font-weight: 500;
   line-height: 1.82em !important;
 }
+
+/*** ---------------------- ***/
 
 .ordered-list-roman li span {
   font-weight: 300;
@@ -1950,19 +1976,29 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/*** Aqui cambiar 2 cosas. ***/
+
+/*** Aqui cambias el color del boton para enviar el email,
+el cual lo he modificado para que sea el color a juego con la pagina web. ***/
+
 .p1-gradient-bg, .primary-btn, .primary-btn2:hover, .single-feature:hover, .video-area .overlay-bg, .single-footer-widget .click-btn, .generic-banner {
-  background-image: -moz-linear-gradient(0deg, #b21aff 0%, #732bde 100%);
-  background-image: -webkit-linear-gradient(0deg, #b21aff 0%, #732bde 100%);
-  background-image: -ms-linear-gradient(0deg, #b21aff 0%, #732bde 100%);
+  background-image: -moz-linear-gradient(0deg, #386abb 0%, #386abb 100%);
+  background-image: -webkit-linear-gradient(0deg, #386abb 0%, #386abb 100%);
+  background-image: -ms-linear-gradient(0deg, #386abb 0%, #386abb 100%);
 }
 
+/*** Aqui cambias el color "gradiente" el cual se combierte en rojo intenso
+cuando pasas el puntero sobre el, para que sepas cual vas a seleccionar. ***/
+
 .p1-gradient-color, .counter-left h2, .footer-social a:hover i, .single-footer-widget .bb-btn {
-  background: -moz-linear-gradient(0deg, #b21aff 0%, #732bde 100%);
-  background: -webkit-linear-gradient(0deg, #b21aff 0%, #732bde 100%);
-  background: -ms-linear-gradient(0deg, #b21aff 0%, #732bde 100%);
+  background: -moz-linear-gradient(0deg, #F80000 0%, #F80000 100%);
+  background: -webkit-linear-gradient(0deg, #F80000 0%, #F80000 100%);
+  background: -ms-linear-gradient(0deg, #F80000 0%, #F80000 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/*** --------------------------------------- ***/
 
 .primary-btn {
   line-height: 42px;
@@ -2056,23 +2092,35 @@ h1, h2, h3, h4, h5, h6 {
   width: 100% !important;
 }
 
+/*** Aqui cambias el color de la cabezera PERO PARA EL TLF MOVIL.
+Solo se aplica a la pagina principal (index).
+Provoca en el tlf el mismo efecto que en el ordenador, primero cabezera
+transparente y luego color amarillo ***/
+
 @media (max-width: 992px) {
   .default-header {
-    background-color: #222;
+    background-color: transparent;
   }
 }
+
+/*** --------------------------- ***/
 
 .sticky-wrapper {
   height: 48px !important;
 }
+
+/*** Aqui cambias el color de la cabezera de la pagina index
+En mi caso, cambio el fondo a amarillo. ***/
 
 .is-sticky .default-header {
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  background-color: #222;
+  background-color: #FFCC03;
 }
+
+/*** ------------------------------------- ***/
 
 .dropdown-item {
   font-size: 14px;
@@ -2543,17 +2591,23 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
 }
 
+/*** Aqui cambias el color de la parte de abajo, el pie de pagina (footer) ***/
+
 .footer-area {
   padding-top: 100px;
-  background-color: #222222;
+  background-color: #FFCC03;
 }
 
+/*** Aqui cambias el color del h6 para todos los footer ***/
+
 h6 {
-  color: #fff;
+  color: #386abb;
   margin-bottom: 25px;
   font-size: 18px;
   font-weight: 600;
 }
+
+/*** ----------------------------------------------------- ***/
 
 .copy-right-text i, .copy-right-text a {
   color: #b01afe;
@@ -2567,13 +2621,17 @@ h6 {
   transition: all 0.3s ease 0s;
 }
 
+/*** Aqui cambias el color de los emoticonos de las redes sociales. ***/
+
 .footer-social i {
-  color: #cccccc;
+  color: #386abb;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+
+/*** ----------------------------------------- ***/
 
 @media (max-width: 991px) {
   .footer-social {
@@ -2581,11 +2639,14 @@ h6 {
   }
 }
 
+/*** Aqui cambias el color del recuadro del boletin informatico
+(se encuentra en el footer). ***/
+
 .single-footer-widget input {
   border: none;
   width: 80%;
   font-weight: 300;
-  background: #191919;
+  background: #ffffff;
   color: #777;
   padding-left: 20px;
   border-radius: 0;
@@ -2593,8 +2654,10 @@ h6 {
 }
 
 .single-footer-widget input:focus {
-  background-color: #191919;
+  background-color: #ffffff;
 }
+
+/*** -------------------------------------- ***/
 
 .single-footer-widget .bb-btn {
   color: #fff;
@@ -2628,16 +2691,22 @@ h6 {
   border: 0;
 }
 
+/*** Aqui cambias el color que se muestra a la hora de seleccionar un texto escrito
+en el recuadro de boletin informativo (se encuentra en el footer)
+Solo he cambiado el color del fondo (background) ***/
+
 .single-footer-widget ::-moz-selection {
   /* Code for Firefox */
-  background-color: #191919 !important;
+  background-color: #ffffff !important;
   color: #777777;
 }
 
 .single-footer-widget ::selection {
-  background-color: #191919 !important;
+  background-color: #ffffff !important;
   color: #777777;
 }
+
+/*** ----------------------------------------- ***/
 
 .single-footer-widget ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
@@ -2687,9 +2756,15 @@ h6 {
   padding-top: 20px;
 }
 
+/*** Aqui cambias el color del icono que he puesto en el footer.
+En la parte de COPYRIGHT, aparece el icono de github y mi nombre
+de usuario de github ***/
+
 .footer-text a, .footer-text i {
-  color: #b01afe;
+  color: #386abb;
 }
+
+/*** ***/
 
 .whole-wrap {
   background-color: #fff;
