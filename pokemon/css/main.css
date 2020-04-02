@@ -1202,7 +1202,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*** Aqui cambias los atributos de la lista desordenada.
-En mi caso, solo le he cambiado el color del border. ***/
+En mi caso, he cambiado:
+- El color del border.
+- Los pixeles de top 
+- He añadido "margin-left" ***/
 
 .unordered-list li:before {
   content: "";
@@ -1211,9 +1214,10 @@ En mi caso, solo le he cambiado el color del border. ***/
   height: 14px;
   border: 3px solid #FFCC03;
   background: #fff;
-  top: 4px;
+  top: 5px;
   left: 0;
   border-radius: 50%;
+  margin-left: 5px;
 }
 
 /*** ----------------------------- ***/
@@ -1249,10 +1253,12 @@ En mi caso, solo le he cambiado el color del border. ***/
 
 /*** Aqui cambias todos los atributos de la lista ordenada
 pero del estilo Lista en numeros romanos.
-En mi caso solo he cambiado el color***/
+En mi caso solo he cambiado:
+- El color 
+- El margen de la izquierda ***/
 
 .ordered-list-roman li {
-  margin-left: 30px;
+  margin-left: 37px;
   list-style-type: lower-roman;
   color: #386abb;
   font-weight: 500;
