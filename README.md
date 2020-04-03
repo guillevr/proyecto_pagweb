@@ -28,6 +28,7 @@
 **Respuesta:** https://themewagon.com/themes/free-bootstrap-4-travel-website-template-download/   
 - **Tarea 3:** Capturas de las cuatros páginas de tu sitio web servidas por tu servidor del cloud.    
 - **Tarea 4:** Entrega la URL de la página donde tienes alojada la página.    
+**Respuesta:** https://lapokewikideguille.000webhostapp.com/
 - **Tarea 5:** Explica cómo has subido la página al hosting gratuito que has elegido (¿Qué hosting has escogido? ¿Qué cliente FTP has utilizado para subir la página?, ¿A qué directorio del servidor remoto has tenido que subir la página?,…)   
-- **Tarea 6:** Capturas de pantalla donde se vea la validación de cada una de las páginas (tiene que parecer la URL de la página). Utilizar el validador de W3C.
-
+- **Tarea 6:** Capturas de pantalla donde se vea la validación de cada una de las páginas (tiene que parecer la URL de la página). Utilizar el validador de W3C.   
+- **Nota:** Las tareas que no tienen respuestas se encuentran en el fichero PDF.
